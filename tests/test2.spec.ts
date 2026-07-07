@@ -9,7 +9,4 @@ test('App login', async({page})=>{
         {
             console.log(await vall.locator('td').nth(0).innerText())
         }
-        console.log('doing changes in main branch')
-        console.log('doing changes in jagan branch')
-        console.log('doing changes in jagan1 branch')
 })
