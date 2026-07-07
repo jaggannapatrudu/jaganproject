@@ -17,7 +17,7 @@ test('jagan login function', async({page})=>{
 
         await page.goto("https://rahulshettyacademy.com/AutomationPractice/")
         let all = page.locator("(//*[@id='product'])[2]/tbody/tr")
-        
+})  
 test('Nihanya login', async({page})=>{
 
         await page.goto("https://rahulshettyacademy.com/AutomationPractice/")
